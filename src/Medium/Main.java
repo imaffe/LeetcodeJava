@@ -24,7 +24,7 @@ public class Main {
         node1.left = node3;
         node1.right = node4;
 
-        M398LongestKRepetitiveSubstring sol = new M398LongestKRepetitiveSubstring();
+        M406QueueConstructionByHeight sol = new M406QueueConstructionByHeight();
 
 
         int array [] = {1,2,3,0,2};
@@ -33,8 +33,32 @@ public class Main {
         int array2d[][] = {{0,3},{1,3},{2,3},{4,3},{5,4}};
         String stringArray[] = {"abcw","baz","foo","bar","xtfn","abcdef"};
         String expression = "bbaaacbd";
-        int res = sol.longestSubstring(expression, 3);
+        String [] pair1 = {"x1","x2"};
+        String [] pair2 = {"x2","x3"};
+        String [] pair3 = {"x3","x4"};
+        String [] pair4 = {"x4","x5"};
+
+
+        List<List<String>> equations = new ArrayList<>();
+        equations.add(Arrays.asList(pair1));
+        equations.add(Arrays.asList(pair2));
+        equations.add(Arrays.asList(pair3));
+        equations.add(Arrays.asList(pair4));
+        List<List<String>> queries = new ArrayList<>();
+        String [] query1 = {"x1","x5"};
+        queries.add(Arrays.asList(query1));
+        double []values = {3.0,4.0,5.0,6.0};
+        int [][] queues = {{7,0}, {4,4}, {7,1}, {5,0}, {6,1}, {5,2} };
+        int [][] res = sol.reconstructQueue(queues);
         System.out.println();
+
+        // test classes
+        TestClass test = new TestClass();
+        TestClass.DefaultClass defa = test.new DefaultClass();
+
+        TestClass.ProtectedClass protectedClass = test.new ProtectedClass();
+
+
     }
 
 }
