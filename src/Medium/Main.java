@@ -1,9 +1,6 @@
 package Medium;
 
 
-import jdk.internal.util.xml.impl.Pair;
-import jdk.nashorn.internal.objects.NativeJSON;
-
 import java.util.*;
 
 public class Main {
@@ -24,7 +21,7 @@ public class Main {
         node1.left = node3;
         node1.right = node4;
 
-        M406QueueConstructionByHeight sol = new M406QueueConstructionByHeight();
+        M433MinimumGeneticMutation sol = new M433MinimumGeneticMutation();
 
 
         int array [] = {1,2,3,0,2};
@@ -49,7 +46,8 @@ public class Main {
         queries.add(Arrays.asList(query1));
         double []values = {3.0,4.0,5.0,6.0};
         int [][] queues = {{7,0}, {4,4}, {7,1}, {5,0}, {6,1}, {5,2} };
-        int [][] res = sol.reconstructQueue(queues);
+        String [] bank = {"AACCGGTA"};
+        int res = sol.minMutation("AACCGGTT","AACCGGTA", bank);
         System.out.println();
 
         // test classes

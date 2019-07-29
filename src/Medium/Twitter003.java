@@ -1,6 +1,5 @@
 package Medium;
 
-import sun.applet.resources.MsgAppletViewer;
 
 import javax.swing.text.StyledEditorKit;
 import java.util.ArrayList;
