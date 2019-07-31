@@ -1,6 +1,8 @@
 package Medium;
 
 
+import Hard.H301MinimumIVliadParen;
+
 import java.util.*;
 
 public class Main {
@@ -21,7 +23,7 @@ public class Main {
         node1.left = node3;
         node1.right = node4;
 
-        M433MinimumGeneticMutation sol = new M433MinimumGeneticMutation();
+        H301MinimumIVliadParen sol = new H301MinimumIVliadParen();
 
 
         int array [] = {1,2,3,0,2};
@@ -47,7 +49,8 @@ public class Main {
         double []values = {3.0,4.0,5.0,6.0};
         int [][] queues = {{7,0}, {4,4}, {7,1}, {5,0}, {6,1}, {5,2} };
         String [] bank = {"AACCGGTA"};
-        int res = sol.minMutation("AACCGGTT","AACCGGTA", bank);
+        String parenthesis = "()())()";
+        List<String> res = sol.removeInvalidParentheses(parenthesis);
         System.out.println();
 
         // test classes
