@@ -41,7 +41,26 @@ public class M300LongestIncreasingSequence {
     }
 
     // the result is correct, but too slow, using DP would be better
-
+    public int lengthOfLIS2(int[] nums) {
+        int len = nums.length;
+        if (len == 0) return 0;
+        int dp[] = new int[len];
+        dp[0] = 1;
+        for (int i = 1; i < len; i++) {
+            int max = 0;
+            for (int j = i-1; j >= 0; j --) {
+                if (nums[i] > nums[j] && dp[j] > max) {
+                    max = dp[j];
+                }
+            }
+            dp[i] = max + 1;
+        }
+        int max = 0;
+        for (int i = 0 ; i < len; i++) {
+            if(dp[i] > max) max = dp[i];
+        }
+        return max;
+    }
 
 }
 

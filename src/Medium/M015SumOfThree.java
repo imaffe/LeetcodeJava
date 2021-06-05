@@ -6,40 +6,30 @@ import java.util.*;
 
 public class M015SumOfThree {
     public List<List<Integer>> threeSum(int[] nums) {
-        Arrays.sort(nums);
-        List<List<Integer>> result = new ArrayList<>();
-        Set<Integer> exist = new HashSet<>();
-        //TODO how to construct a set from a array
-        for(int i = 0; i < nums.length; i++){
-            // TODO , will compiler take care of the stupid question here?
-            exist.add(nums[i]);
-        }
+       int len = nums.length;
+       if (len == 0) return new ArrayList<>();
+       Arrays.sort(nums);
+       Map<Integer, Integer> pos = new HashMap<>();
+       for (int i = 0 ;i < len; i ++) {
+           pos.put(nums[i], i); // has the largest index so no need to worry about
+       }
 
-        for (int i = 0 ; i < nums.length; i++) {
-            int head = nums[i];
-            for(int j = i + 1 ; j < nums.length; j++) {
-                int second = nums[j];
-                int remain = - head - second;
-                // TODO : how to gracefully express the condition here ?
-                if (remain == second &&  j + 1 < nums.length && nums [j + 1] == remain && remain >= second) {
-                    List<Integer> temp = new ArrayList<Integer>() {};
-                    temp.add(head);
-                    temp.add(second);
-                    temp.add(remain);
-                    if (! result.contains(temp))
-                        result.add(temp);
-                }
+       Set<List<Integer>> result = new HashSet<>();
+       // what will happen if I don't sort
 
-                if (remain != second && exist.contains(remain) && remain > second) {
-                    List<Integer> temp = new ArrayList<Integer>() {};
-                    temp.add(head);
-                    temp.add(second);
-                    temp.add(remain);
-                    if (! result.contains(temp))
-                        result.add(temp);
-                }
-            }
-        }
-        return result;
+       for (int i = 0 ; i < len; i++) {
+           for(int j = i + 1; j < len; j++) {
+               int remain = 0 - nums[i] - nums[j];
+               if (pos.containsKey(remain) && pos.get(remain) > j) {
+                   List<Integer> res = new ArrayList<>();
+                   res.add(nums[i]);
+                   res.add(nums[j]);
+                   res.add(remain);
+                    result.add(res);
+               }
+           }
+       }
+       return new ArrayList(result);
     }
+
 }

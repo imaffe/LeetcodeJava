@@ -22,4 +22,30 @@ public class M022GeneratePathen {
         if (leftCount > 0)recursiveGenerate(result, addLeft, leftCount - 1, rightCount + 1);
         if (rightCount > 0) recursiveGenerate(result, addRight, leftCount, rightCount - 1);
     }
+
+    public List<String> generateParenthesis2(int n) {
+        List<String> result = new ArrayList<>();
+        String curString = new String();
+        generate(result, 0, n, 0, curString);
+        return result;
+    }
+    public void generate(List<String> result, int signal, int limit, int cur, String curString) {
+        if(cur == limit) {
+            int remain = signal;
+            while(signal != 0) {
+                curString = curString + ")";
+                signal--;
+            }
+            result.add(curString);
+            return;
+        } else {
+            if (signal == 0) {
+                generate(result, signal + 1, limit, cur + 1, curString + "(");
+                return;
+            } else {
+                generate(result, signal + 1, limit, cur + 1, curString + "(");
+                generate(result, signal - 1, limit, cur, curString + ")");
+            }
+        }
+    }
 }
