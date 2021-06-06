@@ -2,219 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="038a4511-0aa6-43d9-9686-a2c77538d8c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/AbstractFactoryPattern/AbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/AbstractFactoryPattern/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/AbstractFactoryPattern/AnimalFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/AbstractFactoryPattern/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/AdapterPattern/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/AdapterPattern/Machine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/AdapterPattern/MusicMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/AdapterPattern/Sparrow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/DynamicProxy/DynamicClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/DynamicProxy/LogHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/DynamicProxy/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/DynamicProxy/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/DynamicProxy/UserServiceStaticProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/SingletonPattern/SingletonDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hard/ByteDanceReverseLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hard/H23MergeKSortedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hard/H301MinimumIVliadParen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hard/H32LongestValidParentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hard/H42TrappingRainWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hard/H992SubArrayWithKDiff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hard/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hard/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/AJavaExampleCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/AmzHighFreq001OptimalSolution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/AmzHighFreq002MaxRope.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/AmzHighFreq003TreasureIsland1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/AmzHighFreq004TreauseIsland2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/AmzHighFreq005ZombieMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/AmzHighFreq006PairWithGivenSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/AmzHighFreq007CopyListWithRandomPointer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/AmzHighFreq008MergeSortedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/AmzHighFreq008MergeTwoSortedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/AmzHighFreq009SubTreeOfTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/AmzHighFreq010FavorateGenes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/AmzHighFreq011TwoSumFreq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/AmzHighFreq012SubstringWithExactKChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/AmzHighFreq013PathWithMaximumScore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/AmzHighFreq014PalindromSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/AmzHighFreq015MostCommonWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/AmzHighFreq016DistanceBetweenNodes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/AmzHighFreq017KClosetPointsToOrigin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/CT1584.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/E008Atoi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/E20ValidParentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/E21MergeTwoSortedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/H340LongestSubstringWithAtMostKChars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/H4MedianOfTwoSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/H57InsertInterval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/H64ValidNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/H76MinumumWindowSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/LRUCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/M312BurstBallons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/M334IncreasingTripletSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/M646MaximumLengthPairChain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/M698PartitionToKEqualSumSubsets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/M954DoublePair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/M986ListIntersection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/RunLeetCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/SF001GeographicalSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/SF002MaximumStreak.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/SF003MinimumMoves.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/SF004BreakPalindrom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/SF005FindFirstWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/SF006DeleteNodesGreaterThanx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/SF008GetOneBit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Splunk/Splunk001ParseString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Topic/BinarySearch/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RedBlackTree/RbTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RedBlackTree/RbTreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RedBlackTree/RbUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RedBlackTree/TestRbTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/Amazon1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/Amazon1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/Child1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/Child1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/Child2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/Child2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/Interval.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/Interval.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M002AddTwoNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M002AddTwoNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M003LongestSubstring.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M003LongestSubstring.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M005LongestPa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M005LongestPa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M006Conversion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M006Conversion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M0134GasStation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M0134GasStation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M015SumOfThree$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M015SumOfThree$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M015SumOfThree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M015SumOfThree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M017LetterNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M017LetterNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M018FourSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M018FourSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M019RemoveLastNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M019RemoveLastNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M022GeneratePathen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M022GeneratePathen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M024SwapNodesInPairs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M024SwapNodesInPairs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M031NextPermutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M031NextPermutation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M033SearchRotatedSortArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M033SearchRotatedSortArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M034FirstLastPosition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M034FirstLastPosition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M036ValidSoduku.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M036ValidSoduku.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M039CombinationSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M039CombinationSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M040CombinationSum2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M040CombinationSum2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M046Permutations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M046Permutations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M047Permutations2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M047Permutations2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M048RotateImage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M048RotateImage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M049GroupAna.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M049GroupAna.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M054SpiralMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M054SpiralMatrix.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M055JumpGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M055JumpGame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M056MergeIntervals$IntervalComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M056MergeIntervals$IntervalComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M056MergeIntervals.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M056MergeIntervals.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M059SpiralMatrix2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M059SpiralMatrix2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M060PermutationSeq.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M060PermutationSeq.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M061RotatedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M061RotatedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M062UniquePath.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M062UniquePath.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M064MinimusPathSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M064MinimusPathSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M071SimpilfyPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M071SimpilfyPath.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M073SetMartrixZeros.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M073SetMartrixZeros.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M074SearchMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M074SearchMatrix.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M075SortColors.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M075SortColors.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M077Combinations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M077Combinations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M078Subsets.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M078Subsets.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M079WordSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M079WordSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M086PartitionList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M086PartitionList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M090Subset2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M090Subset2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M091DecodeWays.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M091DecodeWays.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M093RestoreIPAddr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M093RestoreIPAddr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M094InorderTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M094InorderTraversal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M095UniqueBT1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M095UniqueBT1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M096UniqueBT2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M096UniqueBT2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M098ValidateBT.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M098ValidateBT.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M103ZigZag.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M103ZigZag.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M105ConstructBT.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M105ConstructBT.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M109ConvertListToBT.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M109ConvertListToBT.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M113PathSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M113PathSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M120Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M120Triangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M127WordLadder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M127WordLadder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M129SumRootToLeafNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M129SumRootToLeafNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M130SurroundedRegion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M130SurroundedRegion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M131Palindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M131Palindrome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M135SingleNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M135SingleNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M138CopyRandomList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M138CopyRandomList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M139WordBreaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M139WordBreaker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M142LinkedListCycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M142LinkedListCycle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M143ReorderList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M143ReorderList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M144BTPreorder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M144BTPreorder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M147InsertionSortList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M147InsertionSortList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M148SortList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M148SortList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M150ReversePolishNotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M150ReversePolishNotation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M152MaxProductionArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M152MaxProductionArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M153MinRotate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M153MinRotate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M163FindPeakElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M163FindPeakElement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M165CompareVersion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M165CompareVersion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M173BtIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M173BtIterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M179LargestNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M179LargestNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M187RepeatDna.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M187RepeatDna.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M199BtRightSideView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M199BtRightSideView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M200NumberOfIslands.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M200NumberOfIslands.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M201BitwiseAndOfRange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M201BitwiseAndOfRange.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M207.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M207.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M208PrefixTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M208PrefixTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M209MinSubarraySum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M209MinSubarraySum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M211AddSearchWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M211AddSearchWorld.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M213HouseRobber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M213HouseRobber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M215KthLargest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M215KthLargest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M216.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M216.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M221MaximalSquare.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M221MaximalSquare.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M222CompleteBTNodes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M222CompleteBTNodes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M223RectangleArea.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M223RectangleArea.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M227BasicCalculator$CharAndLength.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M227BasicCalculator$CharAndLength.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M227BasicCalculator$ValueAndLength.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M227BasicCalculator$ValueAndLength.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M227BasicCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M227BasicCalculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M228SummaryRanges.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M228SummaryRanges.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M229MajorityElement2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M229MajorityElement2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M230KthSmallestInBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M230KthSmallestInBST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M236CommonAncestor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M236CommonAncestor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M240Search2DMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M240Search2DMatrix.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M241AddParenthesis.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M241AddParenthesis.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M260SingleNumber3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M260SingleNumber3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M264UglyNumber2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M264UglyNumber2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M274HIndex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M274HIndex.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M275HIndex2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M275HIndex2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M279PerfectSquare.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M279PerfectSquare.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M284PeekingIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M284PeekingIterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M287FindDuplicateNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M287FindDuplicateNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M289GameOfLife.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M289GameOfLife.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M299BullsAndCows.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M299BullsAndCows.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M300LongestIncreasingSequence$TailAndLength.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M300LongestIncreasingSequence$TailAndLength.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M300LongestIncreasingSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M300LongestIncreasingSequence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M304RangeSumQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M304RangeSumQuery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M306AdditiveNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M306AdditiveNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M309BuyStocks.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M309BuyStocks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M310MinimumHeightTrees.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M310MinimumHeightTrees.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M313SuperUglyNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M313SuperUglyNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M318MaxProductOfWordLength.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M318MaxProductOfWordLength.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M322CoinChange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M322CoinChange.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M324WiggleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M324WiggleSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M328OddEvenLinkedLists.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M328OddEvenLinkedLists.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M331SerializationOfBT.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M331SerializationOfBT.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M337HouseRobber3$Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M337HouseRobber3$Result.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M337HouseRobber3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M337HouseRobber3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M338CountingBits.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M338CountingBits.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M343IntegerBreak.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M343IntegerBreak.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M373FindKSmallPairSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M373FindKSmallPairSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M386LexicographicalNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M386LexicographicalNumbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M392IsSubsequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M392IsSubsequence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M394DecodeString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M394DecodeString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M398LongestKRepetitiveSubstring.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/M398LongestKRepetitiveSubstring.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/Parent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/Parent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/QuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/RandomListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/RandomListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/Twitter001.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/Twitter001.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/Twitter002.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/Twitter002.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/Twitter003.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeJava/Medium/Twitter003.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Medium/M015SumOfThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Medium/M015SumOfThree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Medium/M022GeneratePathen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Medium/M022GeneratePathen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Medium/M300LongestIncreasingSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Medium/M300LongestIncreasingSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Medium/M309BuyStocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Medium/M309BuyStocks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Medium/M406QueueConstructionByHeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Medium/M406QueueConstructionByHeight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Medium/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Medium/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Medium/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Medium/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetcodeJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LeetcodeJava.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -247,10 +40,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../chattimeserver" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -262,7 +57,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.Splunk001ParseString">
+  <component name="RunManager" selected="Application.TestRbTree">
     <configuration name="AmzHighFreq008MergeSortedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Medium.AmzHighFreq008MergeSortedList" />
       <module name="LeetcodeJava" />
@@ -282,19 +77,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JavaClosure" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JCIP.JavaClosure" />
-      <module name="LeetcodeJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JCIP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -328,13 +110,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestRbTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RedBlackTree.TestRbTree" />
+      <module name="LeetcodeJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RedBlackTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestRbTree" />
         <item itemvalue="Application.Splunk001ParseString" />
         <item itemvalue="Application.AmzHighFreq008MergeSortedList" />
         <item itemvalue="Application.CT1584" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.JavaClosure" />
       </list>
     </recent_temporary>
   </component>
@@ -423,6 +229,7 @@
       <workItem from="1612607205838" duration="2498000" />
       <workItem from="1613085757424" duration="3512000" />
       <workItem from="1614868013985" duration="197000" />
+      <workItem from="1622859823318" duration="17923000" />
     </task>
     <servers />
   </component>
@@ -513,6 +320,25 @@
           <url>file://$PROJECT_DIR$/src/Splunk/Splunk001ParseString.java</url>
           <line>68</line>
           <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="key == 2" language="JAVA" />
+          <url>file://$PROJECT_DIR$/src/RedBlackTree/RbTree.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/RedBlackTree/RbTree.java</url>
+          <line>455</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/RedBlackTree/RbTreeNode.java</url>
+          <line>25</line>
+          <properties class="RedBlackTree.RbTreeNode" method="getColorRed">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
